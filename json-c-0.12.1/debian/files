@@ -1,0 +1,6 @@
+json-c_0.12.1-1.3_amd64.buildinfo libs extra
+libjson-c-dev_0.12.1-1.3_amd64.deb libdevel extra
+libjson-c-doc_0.12.1-1.3_all.deb doc extra
+libjson-c3-dbgsym_0.12.1-1.3_amd64.deb debug optional automatic=yes
+libjson-c3-udeb_0.12.1-1.3_amd64.udeb debian-installer extra
+libjson-c3_0.12.1-1.3_amd64.deb libs extra

@@ -1,0 +1,15 @@
+Package: libjson-c3-dbgsym
+Source: json-c
+Version: 0.12.1-1.3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
+Installed-Size: 60
+Depends: libjson-c3 (= 0.12.1-1.3)
+Breaks: libjson-c2-dbg (<< 0.12-3)
+Replaces: libjson-c2-dbg (<< 0.12-3)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libjson-c3
+Build-Ids: 5cd370465b0778099295382056f5214afe94dc32

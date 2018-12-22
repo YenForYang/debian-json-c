@@ -1,0 +1,44 @@
+Format: 1.8
+Date: Sun, 07 Jan 2018 15:38:46 +0100
+Source: json-c
+Binary: libjson-c3 libjson-c-dev libjson-c-doc libjson-c3-udeb
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64 all
+Version: 0.12.1-1.3
+Distribution: unstable
+Urgency: medium
+Maintainer: fabien boucher <fabien.dot.boucher@gmail.com>
+Changed-By: Jonas Meurer <jonas@freesources.org>
+Description:
+ libjson-c-dev - JSON manipulation library - development files
+ libjson-c-doc - JSON manipulation library - documentation files
+ libjson-c3 - JSON manipulation library - shared library
+ libjson-c3-udeb - JSON manipulation library - shared library (udeb) (udeb)
+Closes: 880526
+Changes:
+ json-c (0.12.1-1.3) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Add libjson-c3-udeb package for debian installer. Required as
+     dependency for libcryptsetup12-udeb. (Closes: #880526)
+Checksums-Sha1:
+ 4810f0cc977721b7f7a4201804595a192d15a2b0 6579 json-c_0.12.1-1.3_amd64.buildinfo
+ 582c83d47145c397725047b43e3f7db80512654f 300324 libjson-c-dev_0.12.1-1.3_amd64.deb
+ a0f9ee7de4471e20344703ff1d9f1c46b5cb8e46 8224 libjson-c-doc_0.12.1-1.3_all.deb
+ 1ee3df31195deb4b5d26bbe439c1c4b03b85097d 39272 libjson-c3-dbgsym_0.12.1-1.3_amd64.deb
+ 1958c37a20881d11e2e1c395f1975f3904699df5 47252 libjson-c3-udeb_0.12.1-1.3_amd64.udeb
+ f6d2b293595629947d326940b41b9603e94cd3be 55372 libjson-c3_0.12.1-1.3_amd64.deb
+Checksums-Sha256:
+ 7205763e5313f7158300ac33887a663338b1e78083fdf127b0b8939e6ca19d9c 6579 json-c_0.12.1-1.3_amd64.buildinfo
+ 17c11c8be4e6a85c04624bfd4f6034fbf49ac30b0a0034f79c30295cf3d5c4da 300324 libjson-c-dev_0.12.1-1.3_amd64.deb
+ 128943a4bf7abf198afabee5342063b4b6fa20b07746d287ac6af0441a3895eb 8224 libjson-c-doc_0.12.1-1.3_all.deb
+ 01b33044c1f4a360b86f0b587a73cdb16b81727199115ae75950d0b5718c8c91 39272 libjson-c3-dbgsym_0.12.1-1.3_amd64.deb
+ 8cdf8f1579dc46a1124301bc98a241cfbebbfcbdc0c7e3fa17b16a7df559c41b 47252 libjson-c3-udeb_0.12.1-1.3_amd64.udeb
+ 2cf96f734f3e2bce11ad375e294998aa77099914519f590d02a9cb808685eaca 55372 libjson-c3_0.12.1-1.3_amd64.deb
+Files:
+ de569b908eb47141f27ae4bf07fd808a 6579 libs extra json-c_0.12.1-1.3_amd64.buildinfo
+ 2e682db453841aa30883bf45a2bfd580 300324 libdevel extra libjson-c-dev_0.12.1-1.3_amd64.deb
+ e3623c8fc230a882c2e6b393b1369355 8224 doc extra libjson-c-doc_0.12.1-1.3_all.deb
+ 3f282e2f4c57fbc50530b536f5ef1b07 39272 debug optional libjson-c3-dbgsym_0.12.1-1.3_amd64.deb
+ 357f2c0b915d0c5d84c8d382e0f46b20 47252 debian-installer extra libjson-c3-udeb_0.12.1-1.3_amd64.udeb
+ 4ceadd5b43f15c1659a91b44607def6b 55372 libs extra libjson-c3_0.12.1-1.3_amd64.deb
